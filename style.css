@@ -13,7 +13,7 @@ body {
 
 #page {
     height: 100vh;
-    width: 200vw;
+    width: 500vw;
 }
 
 
@@ -43,13 +43,6 @@ h1 {
     font-size: 100px;
 }
 
-/* enleve le style des ul */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* change le style des boutton du navbar */
 .navButton {
   background-color: #003049;
@@ -66,6 +59,22 @@ a {
     color: #FCBF49;
 }
 
+/* aplique un style au images de projets video */
+.imgProjetVideo {
+    height: 60vh;
+    width: 20vw;
+    transform: skew(20deg, -0deg) translateX(7vw) rotate(-5deg);
+    display: inline;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+/* rajoute du vide a gauche d'un element */
+.spacer {
+    margin-left: 10vw;
+}
+
 
 
 
@@ -74,7 +83,7 @@ a {
 /*styles simple*/
 
 #photoProfil {
-    height: 600px;
+    height: 80vh;
 }
 
 .navButtonMain {
@@ -85,4 +94,13 @@ a {
   font-size: 25px;
   width: 50%;
   height: 80%;
+  margin-left: 2.5%;
+}
+
+.projo {
+    transform: translate(-130px, 210px) rotate(-30deg);
+}
+
+.camera{
+    transform: translate(-10vw, -800px) rotate(-30deg);
 }
