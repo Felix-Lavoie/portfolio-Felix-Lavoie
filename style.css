@@ -1,5 +1,5 @@
 body {
-    background-color: cornsilk;
+    background-color: #FBEDD9;
 }
 
 #header {
@@ -16,12 +16,21 @@ body {
     width: 200vw;
 }
 
+
+
+
 /* styles applicable a plusieurs choses */
 
-/* Aligne les intems d'un parent */
-.alignItems {
+/* Aligne les intems d'un parent au centre */
+.alignItemsCenter {
   display: grid;
   place-items: center;
+}
+
+/* Aligne les intems d'un parent a gauche */
+.alignItemsLeft {
+  display: grid;
+  place-items: center start;
 }
 
 /* met le height a 100% */
@@ -34,8 +43,46 @@ h1 {
     font-size: 100px;
 }
 
+/* enleve le style des ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* change le style des boutton du navbar */
+.navButton {
+  background-color: #003049;
+  color: #FCBF49;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  width: 90%;
+  height: 80%;
+}
+
+/* change le style du a */
+a {
+    color: #FCBF49;
+}
+
+
+
+
+
+
 /*styles simple*/
 
 #photoProfil {
-    height: 450px;
+    height: 600px;
+}
+
+.navButtonMain {
+  background-color: #003049;
+  color: #FCBF49;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  width: 50%;
+  height: 80%;
 }
