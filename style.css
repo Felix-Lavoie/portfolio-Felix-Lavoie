@@ -1,0 +1,41 @@
+body {
+    background-color: cornsilk;
+}
+
+#header {
+    height: 10vh;
+}
+
+#landingPage {
+    width: 100%;
+    height: 90vh;
+}
+
+#page {
+    height: 100vh;
+    width: 200vw;
+}
+
+/* styles applicable a plusieurs choses */
+
+/* Aligne les intems d'un parent */
+.alignItems {
+  display: grid;
+  place-items: center;
+}
+
+/* met le height a 100% */
+.height100 {
+    height: 100%;
+}
+
+/* change la taille des h1 */
+h1 {
+    font-size: 100px;
+}
+
+/*styles simple*/
+
+#photoProfil {
+    height: 450px;
+}
