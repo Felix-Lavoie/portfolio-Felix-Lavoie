@@ -70,12 +70,21 @@ a {
 }
 
 .imgProjet3d {
-    height: 230px;
+    height: 250px;
     width: 700px;
-    transform: translate(400px, 90px) rotate(-10deg);
+    transform: translate(400px, 50px) rotate(-10deg);
     display: inline;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.imgProjetPhoto {
+    height: 600px;
+    width: 300px;
+    transform: translate(360px, 50px) rotate(10deg);
+    display: inline;
+    margin-left: 10px;
+    margin-top: 10%;
 }
 
 
@@ -98,6 +107,15 @@ a {
   width: 50%;
   height: 80%;
   margin-left: 2.5%;
+}
+
+.imgProjetPhotoLast {
+    height: 600px;
+    width: 300px;
+    transform: translate(390px, 70px);
+    display: inline;
+    margin-left: 20px;
+    margin-top: 10%;
 }
 
 .bgLanding{
@@ -133,5 +151,15 @@ a {
 }
 
 .dragon{
-    transform: translate(1300px, -200px);
+    transform: translate(1320px, -200px);
+}
+
+.backdropPhoto{
+    transform: translate(500px, -600px) scale(0.8);
+    z-index: -1;
+    position: absolute;
+}
+
+.cameraPhoto{
+    transform: translate(1100px, 300px) scale(0.8);
 }
