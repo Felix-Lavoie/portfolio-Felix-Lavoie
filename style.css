@@ -169,10 +169,11 @@ a {
     position: absolute;
 }
 
-/*
+
 .cameraPhoto{
     transform: translate(1000px, 350px) scale(0.8);
-}*/
+}
+
 
 .cameraPhoto{
     transform: translate(1100px, 300px) scale(0.8);
