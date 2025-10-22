@@ -35,6 +35,12 @@ body {
   place-items: center start;
 }
 
+/* Aligne les intems d'un parenten haut a gauche */
+.alignItemsLeftUp {
+    display: grid;
+    place-items: center start;
+  }
+
 /* met le height a 100% */
 .height100 {
     height: 100%;
@@ -51,17 +57,31 @@ h1 {
   color: #FCBF49;
   border: none;
   text-align: center;
-  font-size: 25px;
+  font-size: 2.2vw;
   width: 90%;
+  min-width: 150px;
   height: 80%;
 }
 
-/* change le style du a */
+/* change le style des bouttons de projets */
+.btnProjets {
+    background-color: #003049;
+    color: #FCBF49;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    width: 90%;
+    min-width: 200px;
+    height: 80%;
+    transform: translate(160px, 200px);
+}
+
+/* change le style du des liens a */
 a {
     color: #FCBF49;
 }
 
-/* aplique un style au images de projets video */
+/* aplique un style au images des projets */
 .imgProjetVideo {
     height: 600px;
     width: 300px;
@@ -114,8 +134,9 @@ a {
   color: #FCBF49;
   border: none;
   text-align: center;
-  font-size: 25px;
+  font-size: 2.2vw;
   width: 50%;
+  min-width: 150px;
   height: 80%;
   margin-left: 2.5%;
 }
