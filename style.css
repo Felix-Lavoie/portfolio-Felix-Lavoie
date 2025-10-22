@@ -61,6 +61,7 @@ h1 {
   width: 90%;
   min-width: 150px;
   height: 80%;
+  border-radius: 10px;
 }
 
 /* change le style des bouttons de projets */
@@ -74,11 +75,14 @@ h1 {
     min-width: 200px;
     height: 80%;
     transform: translate(160px, 200px);
+    border-radius: 10px;
 }
 
 /* change le style du des liens a */
 a {
     color: #FCBF49;
+    height: 100%;
+    text-decoration: none;
 }
 
 /* aplique un style au images des projets */
@@ -139,6 +143,7 @@ a {
   min-width: 150px;
   height: 80%;
   margin-left: 2.5%;
+  border-radius: 10px;
 }
 
 .imgProjetPhotoLast {

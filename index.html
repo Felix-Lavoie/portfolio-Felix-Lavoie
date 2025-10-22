@@ -15,11 +15,11 @@
     <!-- navbar -->
     <nav class="height100">
         <div class="row height100">
-            <div class="col-4 alignItemsLeft"><button type="button" class="navButtonMain">Accueil</button></div>
-            <div class="col-2 alignItemsCenter"><button type="button" class="navButton">Projets Vidéo</button></div>
-            <div class="col-2 alignItemsCenter"><button type="button" class="navButton">Projets 3d</button></div>
-            <div class="col-2 alignItemsCenter"><button type="button" class="navButton">Projets Photo</button></div>
-            <div class="col-2 alignItemsCenter"><button type="button" class="navButton">Autres Projets</button></div>
+            <div class="col-4 alignItemsLeft"><button type="button" class="navButtonMain" onclick="href=''">Accueil</button></div>
+            <div class="col-2 alignItemsCenter"><a href="#sV" class="navButton alignItemsCenter">Projets Vidéo</a></div>
+            <div class="col-2 alignItemsCenter"><a href="#3d" class="navButton alignItemsCenter">Projets 3d</a></div>
+            <div class="col-2 alignItemsCenter"><a href="#sP" class="navButton alignItemsCenter">Projets Photos</a></div>
+            <div class="col-2 alignItemsCenter"><a href="#sA" class="navButton alignItemsCenter">Autres Projets</a></div>
         </div>
     </nav>
 </header>
@@ -61,12 +61,12 @@
                     <img src="./img/hand_cube.JPG" alt="projet video 3" class="imgProjetVideo">
                 </div>
                 <!-- text -->
-                <div class="col alignItemsCenter height100">
+                <div class="col alignItemsCenter height100" id="sV">
                     <div>
                         <h1>Projets Vidéo</h1>
                         <p class="fs-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets">Projets Vidéo</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './pages/projetsVideo.html';">Projets Vidéo</button></div>
                 </div>
             </div>
         </div>
@@ -87,12 +87,12 @@
                     <img src="./img/hand_cube.JPG" alt="projet 3d 3" class="imgProjet3d">
                 </div>
                 <!-- text -->
-                <div class="col alignItemsCenter height100">
+                <div class="col alignItemsCenter height100" id="3d">
                     <div>
                         <h1>Projets 3d</h1>
                         <p class="fs-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets">Projets 3d</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './pages/projets3d.html';">Projets 3d</button></div>
                 </div>
             </div>
         </div>
@@ -112,12 +112,12 @@
                     <img src="./img/hand_cube.JPG" alt="projet photo 3" class="imgProjetPhotoLast">
                 </div>
                 <!-- text -->
-                <div class="col alignItemsCenter height100">
+                <div class="col alignItemsCenter height100" id="sP">
                     <div>
                         <h1 class="ms-4">Projets Photo</h1>
                         <p class="fs-4 pt-5 ms-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets">Projets Photo</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './pages/projetsPhoto.html';">Projets Photo</button></div>
                 </div>
             </div>
         </div>
@@ -136,12 +136,12 @@
                     <img src="./img/hand_cube.JPG" alt="projet 3d 3" class="imgAutresProjet">
                 </div>
                 <!-- text -->
-                <div class="col alignItemsCenter height100">
+                <div class="col alignItemsCenter height100" id="sA">
                     <div>
                         <h1 class="">Autres Projets</h1>
                         <p class="fs-4 pt-5 ms-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets">Autres Projets</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './pages/autresProjets.html';">Autres Projets</button></div>
                 </div>
             </div>
         </div> 
