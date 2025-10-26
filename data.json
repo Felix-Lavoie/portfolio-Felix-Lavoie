@@ -1,0 +1,89 @@
+{
+    "projets": {
+        "projet_video": [
+            {
+                "id": 1,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 2,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 3,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            }
+        ],
+        "projet_3d": [
+            {
+                "id": 1,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 2,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 3,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            }
+        ],
+        "projet_photo": [
+            {
+                "id": 1,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 2,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 3,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            }
+        ],
+        "projet_autres": [
+            {
+                "id": 1,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            },
+            {
+                "id": 2,
+                "name": "idkyet",
+                "img": "lien",
+                "video": "lien",
+                "description": "text"
+            }
+        ]
+    }
+}
