@@ -14,25 +14,26 @@
     <title>portfolio</title>
 </head>
 
-<!-- Header -->
-<header id="header" class="">
-    <!-- navbar -->
-    <nav class="height100">
-        <div class="row height100">
-            <div class="col-4 alignItemsLeft"><a href='./index.html' class="navButtonMain">Accueil</a></div>
-            <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Vidéo</a></div>
-            <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets 3d</a></div>
-            <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Photos</a></div>
-            <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Autres Projets</a></div>
-        </div>
-    </nav>
-</header>
-
-<!-- body -->
-
 <body id="app">
+
+    <!-- Header -->
+    <header id="header" class="">
+        <!-- navbar -->
+        <nav class="height100">
+            <div class="row height100">
+                <div class="col-4 alignItemsLeft"><a href='./index.html' class="navButtonMain alignItemsCenter">Accueil</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Vidéo</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets 3d</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Photos</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Autres Projets</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- body -->
+
     <!-- landing page -->
-     <pre v-if="projetsArr.projets_video" >{{  projetsArr.projets_video[0].video }}</pre>
+    <pre v-if="projetsArr.projets_video" >{{  projetsArr.projets_video[0].video }}</pre>
 
     <div>
         <div id="landingPage" class="container">
@@ -67,6 +68,8 @@
                 <!-- projets -->
                 <div class="position-relative col-8 height100Vh">
                     <div class="imgProjetVideo">
+                       <!-- v=for projet in arr v-if cat=video  --> 
+                        <!-- a href projet.html?cat=video -->
                         <img src="./assets/hand_cube.JPG" alt="projet video 1">
                         <img src="./assets/hand_cube.JPG" alt="projet video 2">
                         <img src="./assets/hand_cube.JPG" alt="projet video 3">

@@ -152,6 +152,22 @@ a {
     transform: rotate(-10deg);
 }
 
+/* change le style des images de projets */
+.caroussel {
+    height: 70vh;
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* change le style des images de projets */
+.imgProjet {
+    height: 700px;
+    width: 100%;
+}
 
 
 
@@ -233,4 +249,22 @@ a {
 
 .cameraPhoto{
     transform: translate(1100px, 300px) scale(0.8);
+}
+
+.flecheLeft{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -50%);
+}
+
+.flecheRight {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-10%, -50%) rotate(180deg);
 }

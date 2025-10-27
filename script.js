@@ -6,7 +6,7 @@ const app = Vue.createApp({
     }
   },
   mounted() {
-    fetch("./data.json") 
+    fetch("/data.json") 
       .then(data => data.json()) 
       .then(arr => { 
         console.log(arr.projets);
@@ -32,3 +32,5 @@ gsap.to("#page", {
     end: "+=" + totalWidth,
 }
 });
+
+// récupérer un paramètre d'url cat, s'il existe générer avec vue tous les projet avec v-for et v-if

@@ -1,89 +1,90 @@
-{
-    "projets": {
-        "projets_video": [
+[
             {
                 "id": 1,
                 "name": "Chrysalide",
                 "img": "lien",
                 "video": "https://youtu.be/_LMtc2hsPlk",
-                "description": "text"
+                "description": "text", 
+                "cat": "video"
             },
             {
                 "id": 2,
                 "name": "Episode",
                 "img": "lien",
                 "video": "",
-                "description": "text"
+                "description": "text", 
+                "cat": "video"
             },
             {
                 "id": 3,
                 "name": "Texture",
                 "img": "lien",
                 "video": "https://youtu.be/HMyuIsydEW0",
-                "description": "text"
+                "description": "text", 
+                "cat": "video"
+            },
+            {
+                "id": 4,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "3d"
+            },
+            {
+                "id": 5,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "3d"
+            },
+            {
+                "id": 6,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "3d"
+            },
+            {
+                "id": 7,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "photo"
+            },
+            {
+                "id": 8,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "photo"
+            },
+            {
+                "id": 9,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "photo"
+            },
+            {
+                "id": 10,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "autres"
+            },
+            {
+                "id": 11,
+                "name": "idkyet",
+                "img": "lien",
+                "video": false,
+                "description": "text", 
+                "cat": "autres"
             }
-        ],
-        "projets_3d": [
-            {
-                "id": 1,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            },
-            {
-                "id": 2,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            },
-            {
-                "id": 3,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            }
-        ],
-        "projets_photo": [
-            {
-                "id": 1,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            },
-            {
-                "id": 2,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            },
-            {
-                "id": 3,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            }
-        ],
-        "projet_autres": [
-            {
-                "id": 1,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            },
-            {
-                "id": 2,
-                "name": "idkyet",
-                "img": "lien",
-                "video": "lien",
-                "description": "text"
-            }
-        ]
-    }
-}
+]
