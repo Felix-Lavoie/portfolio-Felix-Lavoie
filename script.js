@@ -18,9 +18,9 @@ const app = Vue.createApp({
 
 app.mount('#app')
 
-//scroll on horisontal
+//scroll on horizontal
 gsap.registerPlugin(ScrollTrigger);
-const totalWidth = 6530
+const totalWidth = 8000 - window.innerWidth;
 
 gsap.to("#page", {
   x: -totalWidth,
@@ -29,6 +29,6 @@ gsap.to("#page", {
     trigger: "#page",
     pin: true,
     scrub: 1,
-    end: () => "+=" + (totalWidth),
+    end: "+=" + totalWidth,
 }
 });
