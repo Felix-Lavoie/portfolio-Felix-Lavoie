@@ -10,7 +10,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>portfolio</title>
 </head>
 
@@ -30,13 +30,15 @@
 
 <!-- body -->
 
-<body>
+<body id="app">
     <!-- landing page -->
+     <pre v-if="projetsArr.projets_video" >{{  projetsArr.projets_video[0].video }}</pre>
+
     <div>
         <div id="landingPage" class="container">
             <div class="row height100">
                 <div class="col alignItemsCenter">
-                    <img src="./assets/hand_cube.JPG" alt="photo de profil" id="photoProfil">
+                    <img v-if="projetsArr.projets_video"  :src="projetsArr.projets_video[0].video" alt="photo de profil" id="photoProfil">
                 </div>
                 <div class="col alignItemsCenter">
                     <h1>FELIX LAVOIE</h1>
@@ -178,6 +180,6 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
 </body>
 </html>
