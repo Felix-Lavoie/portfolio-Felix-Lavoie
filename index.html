@@ -22,10 +22,10 @@
         <nav class="height100">
             <div class="row height100">
                 <div class="col-4 alignItemsLeft"><a href='./index.html' class="navButtonMain alignItemsCenter">Accueil</a></div>
-                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Vidéo</a></div>
-                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets 3d</a></div>
-                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Projets Photos</a></div>
-                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html" class="navButton alignItemsCenter">Autres Projets</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html?cat=video" class="navButton alignItemsCenter">Projets Vidéo</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html?cat=3d" class="navButton alignItemsCenter">Projets 3d</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html?cat=photo" class="navButton alignItemsCenter">Projets Photos</a></div>
+                <div class="col-2 alignItemsCenter"><a href="./assets/page/projets.html?cat=autres" class="navButton alignItemsCenter">Autres Projets</a></div>
             </div>
         </nav>
     </header>
@@ -33,8 +33,6 @@
     <!-- body -->
 
     <!-- landing page -->
-    <pre v-if="projetsArr.projets_video" >{{  projetsArr.projets_video[0].video }}</pre>
-
     <div>
         <div id="landingPage" class="container">
             <div class="row height100">
@@ -83,7 +81,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/projets.html';">Projets Vidéo</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/projets.html?cat=video';">Projets Vidéo</button></div>
                 </div>
             </div>
         </div>
@@ -113,7 +111,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets"onclick="window.location.href = './assets/page/projets.html';">Projets 3d</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/projets.html?cat=3d';">Projets 3d</button></div>
                 </div>
             </div>
         </div>
@@ -142,7 +140,7 @@
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/projets.html';">Projets Photo</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/projets.html?cat=photo';">Projets Photo</button></div>
                 </div>
             </div>
         </div>
@@ -170,7 +168,7 @@
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/Projets.html';">Autres Projets</button></div>
+                    <div class="position-absolute"><button type="button" class="btnProjets" onclick="window.location.href = './assets/page/Projets.html?cat=autres';">Autres Projets</button></div>
                 </div>
             </div>
         </div>

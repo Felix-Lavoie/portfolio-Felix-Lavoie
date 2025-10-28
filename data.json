@@ -2,16 +2,16 @@
             {
                 "id": 1,
                 "name": "Chrysalide",
-                "img": "lien",
-                "video": "https://youtu.be/_LMtc2hsPlk",
+                "img": "/assets/hand_cube.JPG",
+                "video": "https://www.youtube.com/watch?v=_LMtc2hsPlk",
                 "description": "text", 
                 "cat": "video"
             },
             {
                 "id": 2,
                 "name": "Episode",
-                "img": "lien",
-                "video": "",
+                "img": "/assets/hand_cube.JPG",
+                "video": "https://www.youtube.com/watch?v=RsqyBIx_T5Q",
                 "description": "text", 
                 "cat": "video"
             },
@@ -27,7 +27,6 @@
                 "id": 4,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "3d"
             },
@@ -35,7 +34,6 @@
                 "id": 5,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "3d"
             },
@@ -43,7 +41,6 @@
                 "id": 6,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "3d"
             },
@@ -51,7 +48,6 @@
                 "id": 7,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "photo"
             },
@@ -59,7 +55,6 @@
                 "id": 8,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "photo"
             },
@@ -67,7 +62,6 @@
                 "id": 9,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "photo"
             },
@@ -75,7 +69,6 @@
                 "id": 10,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "autres"
             },
@@ -83,7 +76,6 @@
                 "id": 11,
                 "name": "idkyet",
                 "img": "lien",
-                "video": false,
                 "description": "text", 
                 "cat": "autres"
             }

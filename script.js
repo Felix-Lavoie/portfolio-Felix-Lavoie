@@ -2,6 +2,7 @@
 const app = Vue.createApp({
   data() {
     return {
+      cat: '',
       projetsArr: {}
     }
   },
@@ -9,8 +10,15 @@ const app = Vue.createApp({
     fetch("/data.json") 
       .then(data => data.json()) 
       .then(arr => { 
-        console.log(arr.projets);
-        this.projetsArr = arr.projets
+        console.log(arr);
+        this.projetsArr = arr
+
+        const params = new URLSearchParams(window.location.search)
+        const cat = params.get('cat')
+        console.log(cat)
+        this.cat = cat
+        console.log(this.cat)
+
       })
       .catch(err => console.error("Erreur:", err));
   }
@@ -33,4 +41,15 @@ gsap.to("#page", {
 }
 });
 
-// récupérer un paramètre d'url cat, s'il existe générer avec vue tous les projet avec v-for et v-if
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  effect: 'slide', // you can change to 'fade', 'cube', 'coverflow', etc.
+});

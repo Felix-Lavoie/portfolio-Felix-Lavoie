@@ -153,17 +153,6 @@ a {
 }
 
 /* change le style des images de projets */
-.caroussel {
-    height: 70vh;
-    width: 80vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-/* change le style des images de projets */
 .imgProjet {
     height: 700px;
     width: 100%;
@@ -268,3 +257,27 @@ a {
     right: 0;
     transform: translate(-10%, -50%) rotate(180deg);
 }
+
+.swiper {
+    height: 70vh;
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
