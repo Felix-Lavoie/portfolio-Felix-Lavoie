@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="/style.css">
     <title>Projets</title>
 </head>
@@ -30,27 +29,6 @@
 
     <!-- body -->
 
-    <!-- landing page -->
-    <!-- <div class="container" id="landingPage">-->
-
-        <!--<div class="swiper">
-            <div class="swiper-wrapper">
-            
-              <div class="swiper-slide" v-for="data in projetsArr">
-                <img v-if="cat === data.cat" :src="data.img" :alt="data.id"/>
-              </div>
-            </div>
-        
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>-->
-
-        <!--<div>
-            <img src="/assets/fleche.png" alt="gauche" class="flecheLeft">
-            <a href="" class="height100"><img src="/assets/hand_cube.JPG" alt="caroussel" class="caroussel"></a>
-            <img src="/assets/fleche.png" alt="droite" class="flecheRight">
-        </div>-->
     </div>
     <div class="container height100" v-for="data in projetsArr">
         <div :id="data.id" v-if="cat === data.cat">
