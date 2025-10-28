@@ -2,7 +2,7 @@
             {
                 "id": 1,
                 "name": "Chrysalide",
-                "img": "/assets/hand_cube.JPG",
+                "img": "/assets/images_projets/crhysalide.png",
                 "video": "https://www.youtube.com/watch?v=_LMtc2hsPlk",
                 "description": "text", 
                 "cat": "video"
@@ -10,7 +10,7 @@
             {
                 "id": 2,
                 "name": "Episode",
-                "img": "/assets/hand_cube.JPG",
+                "img": "/assets/images_projets/episode.png",
                 "video": "https://www.youtube.com/watch?v=RsqyBIx_T5Q",
                 "description": "text", 
                 "cat": "video"
@@ -18,7 +18,7 @@
             {
                 "id": 3,
                 "name": "Texture",
-                "img": "lien",
+                "img": "/assets/images_projets/texture.png",
                 "video": "https://youtu.be/HMyuIsydEW0",
                 "description": "text", 
                 "cat": "video"

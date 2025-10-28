@@ -152,10 +152,11 @@ a {
     transform: rotate(-10deg);
 }
 
-/* change le style des images de projets */
+/* change le style des images dans la page de projets */
 .imgProjet {
     height: 700px;
     width: 100%;
+    object-fit: cover;
 }
 
 

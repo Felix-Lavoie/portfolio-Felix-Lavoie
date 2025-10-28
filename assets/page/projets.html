@@ -33,7 +33,7 @@
     <div class="container height100" v-for="data in projetsArr">
         <div :id="data.id" v-if="cat === data.cat">
             <h1 class="alignItemsCenter pb-3">{{ data.name }}</h1>
-            <img :src="data.image" alt="" class="imgProjet">
+            <img :src="data.img" alt="" class="imgProjet">
             <p class="fs-2 pt-5">{{ data.description }}</p>
             <a v-if="data.video" class="fs-3" :href="data.video">Video</a>
         </div>
