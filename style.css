@@ -23,6 +23,10 @@ body {
 
 /* styles applicable a plusieurs choses */
 
+img {
+    object-fit: cover;
+}
+
 /* Aligne les intems d'un parent au centre */
 .alignItemsCenter {
   display: grid;
@@ -159,6 +163,18 @@ a {
     object-fit: cover;
 }
 
+/* change le syles des icones */
+.icone{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+.iconeL {
+    height: 100px;
+}
+
 
 
 
@@ -167,6 +183,8 @@ a {
 
 #photoProfil {
     height: 80vh;
+    width: 30vw;
+    object-fit: cover;
 }
 
 .navButtonMain {
@@ -241,44 +259,5 @@ a {
     transform: translate(1100px, 300px) scale(0.8);
 }
 
-.flecheLeft{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(10%, -50%);
-}
 
-.flecheRight {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(-10%, -50%) rotate(180deg);
-}
 
-.swiper {
-    height: 70vh;
-    width: 80vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  }
-
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000;
-  }
-
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
