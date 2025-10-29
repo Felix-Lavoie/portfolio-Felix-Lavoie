@@ -29,7 +29,7 @@
     <!-- body -->
 
     </div>
-        <div class="container height100" v-for="data in projetsArr">
+        <div class="container height100 margin100" v-for="data in projetsArr">
             <div :id="data.id" v-if="cat === data.cat">
             <h1 class="alignItemsCenter pb-3">{{ data.name }}</h1>
             <img :src="data.img" alt="" class="imgProjet">

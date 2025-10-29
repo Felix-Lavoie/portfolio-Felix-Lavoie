@@ -331,4 +331,8 @@ a {
     .margin-100 {
         margin-top: -600px;
     }
+
+    .margin100 {
+        margin-top: 50px;
+    }
 }
