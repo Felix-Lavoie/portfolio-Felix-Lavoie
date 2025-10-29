@@ -4,7 +4,8 @@
                 "name": "Chrysalide",
                 "img": "/assets/images_projets/crhysalide.png",
                 "video": "https://www.youtube.com/watch?v=_LMtc2hsPlk",
-                "description": "Un projet de stop motion et d'animation 2D qui tente d'illustrer un poème dans un style funèbre en noir et blanc et réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré.", 
+                "description": "Un projet de stop motion et d'animation 2D réaliser dans le cour de conception vidéo en équipe qui tente d'illustrer un poème dans un style funèbre en noir et blanc et réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré. Mes rôles dans ce projet étaient metteur en scène et photographe.", 
+                "desc2": "Ce projet a été réalisé dans les étapes suivantes. Premièrement, il y a eu la préproduction où nous avons créé un moodboard, un synopsis et un storyboard qui ensuite a été suivi par la production. Nous avons pris tous les médias qui, dans ce cas, sont les photos. Finalement, nous avons fait le montage qui s'est fait vérifier et que, après approbation d'un professeur et d'avoir fait les changements nécessaires, nous avons produit la version finale du montage.",
                 "cat": "video"
             },
             {
@@ -12,7 +13,7 @@
                 "name": "Episode",
                 "img": "/assets/images_projets/episode.png",
                 "video": "https://www.youtube.com/watch?v=RsqyBIx_T5Q",
-                "description": "Un court métrage qui raconte la courte histoire d'Alex (21 ans) qui subit des épisodes de psychose, le tout projeté sur plusieurs murs réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré.", 
+                "description": "Un court métrage réaliser dans le cour de Montage vidéo en équipe qui raconte la courte histoire d'Alex (21 ans) qui subit des épisodes de psychose, le tout projeté sur plusieurs murs réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré. Mes rôles dans ce projet étaient metteur en scène, technicien de scène et directeur photo", 
                 "cat": "video"
             },
             {
@@ -20,14 +21,14 @@
                 "name": "Texture",
                 "img": "/assets/images_projets/texture.png",
                 "video": "https://youtu.be/HMyuIsydEW0",
-                "description": "Un court métrage tourné en macro qui essaye d'illustrer une crise d'angoisse avec des jeux de lumière, des plans de fleurs et un toutou réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré.", 
+                "description": "Un court métrage tourné en macro réaliser dans le cour de Montage vidéo en équipe qui essaye d'illustrer une crise d'angoisse avec des jeux de lumière, des plans de fleurs et un toutou réaliser avec Joshua Gonzalez-Barrera et Michael Un Dupré. Mes rôles dans ce projet étaient metteur en scène, technicien de scène et directeur photo", 
                 "cat": "video"
             },
             {
                 "id": 4,
                 "name": "Dragon",
                 "img": "/assets/images_projets/dragoon.png",
-                "description": "Une simple récréation 3D de l'Ender Dragon de Minecraft.", 
+                "description": "Une simple récréation 3D de l'Ender Dragon de Minecraft. Crée dans le cour de modélisation 3d a partire de maya", 
                 "cat": "3d"
             },
             {
@@ -55,7 +56,7 @@
                 "id": 10,
                 "name": "Climb",
                 "img": "/assets/images_projets/climb.jpeg",
-                "description": "Climb est un jeu 2D où le but est d'arriver au sommet de la montagne en esquivant les rochers.", 
+                "description": "Climb est un jeu 2D où le but est d'arriver au sommet de la montagne en esquivant les rochers. réaliser dans le cour d'intéractiviter ludique dans Visual Studio Code", 
                 "cat": "autres",
                 "video": "https://aragonaze.itch.io/climb"
             },
@@ -63,7 +64,7 @@
                 "id": 11,
                 "name": "Shadow Box",
                 "img": "/assets/images_projets/shadowBox.png",
-                "description": "Shadow Box est un jeu de boxe en VR où le but est de vaincre un autre joueur qui contrôle un ennemi qui est bien plus grand que nous avec l'aide d'un clavier midi. Réaliser avec Patricia Nassif et Justin Montpetit.", 
+                "description": "Shadow Box est un jeu de boxe en VR où le but est de vaincre un autre joueur qui contrôle un ennemi qui est bien plus grand que nous avec l'aide d'un clavier midi. Réaliser avec Patricia Nassif et Justin Montpetit. Réaliser dans le cour de réaliter mixte dans Unity", 
                 "cat": "autres",
                 "video": "https://youtu.be/LrglgO9rY2g"
             }

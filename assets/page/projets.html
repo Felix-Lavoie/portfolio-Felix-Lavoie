@@ -15,13 +15,13 @@
     <!-- Header -->
 <header id="header" class="">
     <!-- navbar -->
-    <nav class="height100">
-        <div class="row height100">
-            <div class="col-4 alignItemsLeft"><a href='/index.html' class="navButtonMain alignItemsCenter">Accueil</a></div>
-            <div class="col-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=video" class="navButton alignItemsCenter">Projets Vidéo</a></div>
-            <div class="col-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=3d" class="navButton alignItemsCenter">Projets 3d</a></div>
-            <div class="col-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=photo" class="navButton alignItemsCenter">Projets Photos</a></div>
-            <div class="col-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=autres" class="navButton alignItemsCenter">Autres Projets</a></div>
+    <nav class="height100 phone100Vh">
+        <div class="row height100 flex-md-row flex-column ">
+            <div class="col-md-4 alignItemsLeft"><a href='/index.html' class="navButtonMain navButton alignItemsCenter">Accueil</a></div>
+            <div class="col-md-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=video" class="navButton alignItemsCenter">Projets Vidéo</a></div>
+            <div class="col-md-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=3d" class="navButton alignItemsCenter">Projets 3d</a></div>
+            <div class="col-md-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=photo" class="navButton alignItemsCenter">Projets Photos</a></div>
+            <div class="col-md-2 alignItemsCenter"><a href="/assets/page/projets.html?cat=autres" class="navButton alignItemsCenter">Autres Projets</a></div>
         </div>
     </nav>
 </header>
@@ -29,11 +29,12 @@
     <!-- body -->
 
     </div>
-    <div class="container height100" v-for="data in projetsArr">
-        <div :id="data.id" v-if="cat === data.cat">
+        <div class="container height100" v-for="data in projetsArr">
+            <div :id="data.id" v-if="cat === data.cat">
             <h1 class="alignItemsCenter pb-3">{{ data.name }}</h1>
             <img :src="data.img" alt="" class="imgProjet">
             <p class="fs-2 pt-5">{{ data.description }}</p>
+            <p class="fs-2 pt-5">{{ data.desc2 }}</p>
             <a v-if="data.video" class="fs-3" :href="data.video">Lien</a>
         </div>
     </div>

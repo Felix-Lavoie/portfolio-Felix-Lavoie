@@ -7,9 +7,9 @@ const app = Vue.createApp({
     }
   },
   mounted() {
-    fetch("/data.json") 
-      .then(data => data.json()) 
-      .then(arr => { 
+    fetch("/data.json")
+      .then(data => data.json())
+      .then(arr => {
         console.log(arr);
         this.projetsArr = arr
 
@@ -29,14 +29,18 @@ app.mount('#app')
 //scroll on horizontal
 gsap.registerPlugin(ScrollTrigger);
 const totalWidth = 8000 - window.innerWidth;
+ScrollTrigger.matchMedia({
 
-gsap.to("#page", {
-  x: -totalWidth,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#page",
-    pin: true,
-    scrub: 1,
-    end: "+=" + totalWidth,
-}
-});
+  "(min-width: 768px)": function () {
+    gsap.to("#page", {
+      x: -totalWidth,
+      ease: "none",
+      scrollTrigger: {
+        trigger: "#page",
+        pin: true,
+        scrub: 1,
+        end: "+=" + totalWidth,
+      }
+    });
+  }
+})
