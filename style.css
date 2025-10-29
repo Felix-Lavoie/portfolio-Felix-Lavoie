@@ -295,7 +295,7 @@ a {
     }
 
     .imgProjetVideo {
-        transform: translate(-30%, 200%);
+        transform: translate(-30%, 260%);
     }
 
     .imgProjetVideo img {
@@ -326,5 +326,9 @@ a {
         height: 500px;
         width: 200px;
         transform: rotate(0);
+    }
+
+    .margin-100 {
+        margin-top: -600px;
     }
 }
