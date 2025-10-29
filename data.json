@@ -4,7 +4,7 @@
                 "name": "Chrysalide",
                 "img": "/assets/images_projets/crhysalide.png",
                 "video": "https://www.youtube.com/watch?v=_LMtc2hsPlk",
-                "description": "text", 
+                "description": "Un projet de stop motion et d'animation 2D qui tente d'illustrer un poème dans un style funèbre en noir et blanc.", 
                 "cat": "video"
             },
             {
@@ -12,7 +12,7 @@
                 "name": "Episode",
                 "img": "/assets/images_projets/episode.png",
                 "video": "https://www.youtube.com/watch?v=RsqyBIx_T5Q",
-                "description": "text", 
+                "description": "Un court métrage qui raconte la courte histoire d'Alex (21 ans) qui subit des épisodes de psychose, le tout projeté sur plusieurs murs.", 
                 "cat": "video"
             },
             {
@@ -20,63 +20,65 @@
                 "name": "Texture",
                 "img": "/assets/images_projets/texture.png",
                 "video": "https://youtu.be/HMyuIsydEW0",
-                "description": "text", 
+                "description": "Un court métrage tourné en macro qui essaye d'illustrer une crise d'angoisse avec des jeux de lumière, des plans de fleurs et un toutou.", 
                 "cat": "video"
             },
             {
                 "id": 4,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
+                "name": "Dragon",
+                "img": "/assets/images_projets/dragoon.png",
+                "description": "Une simple récréation 3D de l'Ender Dragon de Minecraft.", 
                 "cat": "3d"
             },
             {
                 "id": 5,
-                "name": "idkyet",
+                "name": "skull",
                 "img": "lien",
                 "description": "text", 
                 "cat": "3d"
             },
             {
                 "id": 6,
-                "name": "idkyet",
+                "name": "crystal",
                 "img": "lien",
                 "description": "text", 
                 "cat": "3d"
             },
             {
                 "id": 7,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
+                "name": "Statue",
+                "img": "/assets/images_projets/weird_statue.JPG",
+                "description": "Une composition abstraite d'une sculpture qui tient à peine.", 
                 "cat": "photo"
             },
             {
                 "id": 8,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
+                "name": "Quai",
+                "img": "/assets/images_projets/lac.png",
+                "description": "Photo d'une libellule sur un quai.", 
                 "cat": "photo"
             },
             {
                 "id": 9,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
+                "name": "Ecureuil",
+                "img": "/assets/images_projets/ecureuil.png",
+                "description": "Photo d'un ecureuil parmis les branches.", 
                 "cat": "photo"
             },
             {
                 "id": 10,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
-                "cat": "autres"
+                "name": "Climb",
+                "img": "/assets/images_projets/climb.jpeg",
+                "description": "Climb est un jeu 2D où le but est d'arriver au sommet de la montagne en esquivant les rochers.", 
+                "cat": "autres",
+                "video": "https://aragonaze.itch.io/climb"
             },
             {
                 "id": 11,
-                "name": "idkyet",
-                "img": "lien",
-                "description": "text", 
-                "cat": "autres"
+                "name": "Shadow Box",
+                "img": "/assets/images_projets/shadowBox.png",
+                "description": "Shadow Box est un jeu de boxe en VR où le but est de vaincre un autre joueur qui contrôle un ennemi qui est bien plus grand que nous avec l'aide d'un clavier midi.", 
+                "cat": "autres",
+                "video": "https://youtu.be/LrglgO9rY2g"
             }
 ]

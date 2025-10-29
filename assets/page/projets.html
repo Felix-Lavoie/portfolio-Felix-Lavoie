@@ -12,7 +12,6 @@
 </head>
 
 <body id="app">
-    <pre v-if="projetsArr.projets_video" >{{  video }}</pre>
     <!-- Header -->
 <header id="header" class="">
     <!-- navbar -->
@@ -35,7 +34,7 @@
             <h1 class="alignItemsCenter pb-3">{{ data.name }}</h1>
             <img :src="data.img" alt="" class="imgProjet">
             <p class="fs-2 pt-5">{{ data.description }}</p>
-            <a v-if="data.video" class="fs-3" :href="data.video">Video</a>
+            <a v-if="data.video" class="fs-3" :href="data.video">Lien</a>
         </div>
     </div>
 
