@@ -7,7 +7,7 @@ const app = Vue.createApp({
     }
   },
   mounted() {
-    fetch("/data.json")
+    fetch("/portfolio-Felix-Lavoie/data.json")
       .then(data => data.json())
       .then(arr => {
         console.log(arr);
